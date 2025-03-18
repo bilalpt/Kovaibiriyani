@@ -1,0 +1,13 @@
+@layer base {
+    .text-outline{
+      -webkit-text-stroke: 2px rgb(0,0,0);
+    }
+  }
+
+
+  @layer utilities {
+      .img-shadow {
+        filter : drop-shadow(-6px 6px 10px  rgba(0, 0, 0, 0.4));
+      }
+      
+    }
