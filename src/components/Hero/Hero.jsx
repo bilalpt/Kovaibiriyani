@@ -50,20 +50,21 @@ const Hero = () => {
                             whileInView="show"
                             className="text-sm px-5 md:px-0 pl-0 md:pl-36"
                         >
-                            At Kovai Restaurant, we serve a variety of delicious dishes to satisfy your cravings. Our Biriyani selection includes Chicken Biriyani, Beef Biriyani, and Egg Biriyani, each cooked with aromatic spices to bring out the perfect flavor. 
+                            At Kovai Restaurant, we serve a variety of delicious dishes to satisfy your cravings. Our Biriyani selection includes Chicken Biriyani, Beef Biriyani, and Egg Biriyani, each cooked with aromatic spices to bring out the perfect flavor.
 
                         </motion.p>
-
 
                         <motion.button
                             variants={SlideUp(2)}
                             initial="hidden"
                             whileInView="show"
                             className="btn-primary ml-0 md:ml-36 bg-green-800 text-white rounded-2xl py-2 px-4 font-semibold hover:scale-110 inline-block !mt-10"
+                            onClick={() => document.getElementById("contact").scrollIntoView({ behavior: "smooth" })}
                         >
                             <IoCartOutline className="inline mr-2" />
                             Order Now
                         </motion.button>
+
                     </div>
 
                     {/* Image Section */}
