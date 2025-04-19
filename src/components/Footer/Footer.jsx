@@ -41,7 +41,7 @@ const Footer = () => {
             {/* Follow Us (Centered and Reduced Gap) */}
             <div className="flex flex-col items-center justify-start space-y-2">
               <h1 className="text-lg font-semibold">Follow Us</h1>
-              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-1 text-sm md:pt-4">
+              <a href="https://www.instagram.com/kovairawutherbiryani/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-1 text-sm md:pt-4">
                 <FaInstagram className="text-lg text-pink-500" />
                 <span>Instagram</span>
               </a>
